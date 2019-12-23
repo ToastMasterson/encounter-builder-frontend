@@ -1,0 +1,249 @@
+#task-bar {
+    background-image: url("https://i.pinimg.com/originals/86/66/85/866685bdd4bbc516ec1a13c956d4d7bf.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-style: double;
+    border-radius: 10px;
+    width: auto;
+    font-family: Cinzel;
+    color: #f5f2c5;
+}
+body {
+    font-family: Cinzel;
+    background-image: url("https://wallpapercave.com/wp/wp2338442.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#log-in{
+    display: inline-block
+}
+#main-title {
+    display: inline-block;
+}
+
+#main-div {
+    display: flex;
+    justify-content: center;
+}
+
+#create-encounter-div {
+    display: flex;
+    flex-flow: column;
+}
+
+#encounter-header {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+#encounter-div {
+    background: #312b2970;
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: wrap;
+    align-items: center;
+    border-style: outset;
+    height: 63px;
+    color: wheat;
+    font-size: 20px;
+}
+
+#encounter-select-div {
+    display: flex;
+    justify-content: center;
+}
+
+.encounter-title {
+    margin: 3px;
+    display: flex;
+    justify-content: center;
+}
+
+#create-encounter-form {
+    justify-content: center;
+    display: flex;
+}
+
+#search-bar {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    visibility: hidden;
+    height: 236px;
+}
+
+#form-submit-div{
+    display: flex;
+    justify-content: center;
+}
+
+#form-submit {
+    height: 50px;
+    width: 180px;
+}
+
+#get-search {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+#query-form {
+    background: #312b2970;
+    border-style: outset;
+    display: flex;
+    flex-flow: column wrap;
+    width: 55%;
+    padding: 11px;
+    justify-content: space-evenly;
+    color: whitesmoke;
+}
+
+#result-div {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    margin: auto;
+    width: auto;
+}
+
+.card {
+    background-image: url(http://www.morfinmagic.com/html/images/Background%20Old%20Paper%201200x1815.jpg);
+    background-size: cover;
+    margin: 10px;
+    padding: 20px;
+    border: solid 4px #312b29;
+    border-radius: 26px;
+    width: 15rem;
+    height: 22rem;
+    box-shadow: 4px 8px 14px;
+}
+
+.card-header {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.card-title{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    font-family: 'Cinzel';
+    font-size: x-large;
+    text-decoration: underline;
+}
+
+.card-list {
+    display: flex;
+    font-size: 18px;
+    font-family: 'Nanum Myeongjo';
+    flex-flow: column;
+    margin: 10px;
+}
+
+.card-stats-list {
+    display: flex;
+    flex-flow: column wrap;
+    font-family: 'Nanum Myeongjo';
+}
+
+.add-button {
+    margin-top: 10px;
+}
+
+.encounter-delete-button {
+    float: right;
+}
+.encounter-button {
+    float: left;
+}
+
+li {
+    list-style-type: none;
+    justify-content: right;
+}
+
+.search-select-div {
+    height: 30px;
+}
+
+select {
+    /* display: block; */
+    /* font-size: 16px; */
+    font-family: Nanum Myeong;
+    font-weight: 700;
+    color: #444;
+    line-height: 1.3;
+    padding: 0.2em 1.2em 0.4em 0.9em;
+    width: 28%;
+    max-width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    border: 1px solid #635b5b;
+    box-shadow: 0 1px 0 1px rgba(0,0,0,.04);
+    border-radius: .5em;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #fff;
+	background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23007CB2%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E'),
+	  linear-gradient(to bottom, #ffffff 0%,#e5e5e5 100%);
+    background-repeat: no-repeat, repeat;
+    background-position: right .7em top 50%, 0 0;
+    background-size: .65em auto, 100%;
+}
+.select-css::-ms-expand {
+	display: none;
+}
+.select-css:hover {
+	border-color: #888;
+}
+.select-css:focus {
+	border-color: #aaa;
+	box-shadow: 0 0 1px 3px rgba(59, 153, 252, .7);
+	box-shadow: 0 0 0 3px -moz-mac-focusring;
+	color: #222;
+	outline: none;
+}
+.select-css option {
+	font-weight:normal;
+}
+
+label {
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+span {
+    float: right;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    margin: 5px;
+    color: wheat;
+    text-decoration: underline;
+}
+
+#no-results {
+    color: brown;
+    font-size: x-large;
+    text-decoration: underline;
+    border-style: double;
+    border-color: bisque;
+}
+
+#form-submit {
+    margin: 1rem;
+}
